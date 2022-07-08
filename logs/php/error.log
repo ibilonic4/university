@@ -17,3 +17,27 @@
 [07-Jul-2022 11:41:35 UTC] PHP   4. require_once() C:\Users\dell\Local Sites\university\app\public\wp-load.php:50
 [07-Jul-2022 11:41:35 UTC] PHP   5. require_once() C:\Users\dell\Local Sites\university\app\public\wp-config.php:91
 [07-Jul-2022 11:41:35 UTC] PHP   6. require() C:\Users\dell\Local Sites\university\app\public\wp-settings.php:190
+[08-Jul-2022 10:55:57 UTC] PHP Parse error:  syntax error, unexpected '?' in C:\Users\dell\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\page.php on line 31
+[08-Jul-2022 11:27:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function child() in C:\Users\dell\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\page.php:52
+Stack trace:
+#0 C:\Users\dell\Local Sites\university\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\dell\Local Sites\university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\dell\\L...')
+#2 C:\Users\dell\Local Sites\university\app\public\index.php(17): require('C:\\Users\\dell\\L...')
+#3 {main}
+  thrown in C:\Users\dell\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\page.php on line 52
+[08-Jul-2022 11:27:45 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\dell\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\page.php on line 52
+[08-Jul-2022 11:34:12 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_page_children(), 1 passed in C:\Users\dell\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\page.php on line 52 and exactly 2 expected in C:\Users\dell\Local Sites\university\app\public\wp-includes\post.php:5781
+Stack trace:
+#0 C:\Users\dell\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\page.php(52): get_page_children(12)
+#1 C:\Users\dell\Local Sites\university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\dell\\L...')
+#2 C:\Users\dell\Local Sites\university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\dell\\L...')
+#3 C:\Users\dell\Local Sites\university\app\public\index.php(17): require('C:\\Users\\dell\\L...')
+#4 {main}
+  thrown in C:\Users\dell\Local Sites\university\app\public\wp-includes\post.php on line 5781
+[08-Jul-2022 11:34:56 UTC] PHP Warning:  Use of undefined constant the_post - assumed 'the_post' (this will throw an Error in a future version of PHP) in C:\Users\dell\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\page.php on line 52
+[08-Jul-2022 11:34:56 UTC] PHP Stack trace:
+[08-Jul-2022 11:34:56 UTC] PHP   1. {main}() C:\Users\dell\Local Sites\university\app\public\index.php:0
+[08-Jul-2022 11:34:56 UTC] PHP   2. require() C:\Users\dell\Local Sites\university\app\public\index.php:17
+[08-Jul-2022 11:34:56 UTC] PHP   3. require_once() C:\Users\dell\Local Sites\university\app\public\wp-blog-header.php:19
+[08-Jul-2022 11:34:56 UTC] PHP   4. include() C:\Users\dell\Local Sites\university\app\public\wp-includes\template-loader.php:106
+[08-Jul-2022 11:43:24 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\dell\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\page.php on line 52
