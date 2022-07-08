@@ -1,0 +1,19 @@
+[07-Jul-2022 11:41:24 UTC] PHP Fatal error:  Cannot redeclare wp_readonly() (previously declared in C:\Users\dell\Local Sites\university\app\public\wp-includes\general-template.php:4867) in C:\Users\dell\Local Sites\university\app\public\wp-includes\php-compat\readonly.php on line 34
+[07-Jul-2022 11:41:24 UTC] PHP Stack trace:
+[07-Jul-2022 11:41:24 UTC] PHP   1. {main}() C:\Users\dell\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[07-Jul-2022 11:41:24 UTC] PHP   2. include() C:\Users\dell\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[07-Jul-2022 11:41:24 UTC] PHP   3. include() phar://C:/Users/dell/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[07-Jul-2022 11:41:24 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/dell/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[07-Jul-2022 11:41:24 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/dell/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[07-Jul-2022 11:41:24 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/dell/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[07-Jul-2022 11:41:24 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/dell/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[07-Jul-2022 11:41:24 UTC] PHP   8. require() phar://C:/Users/dell/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[07-Jul-2022 11:41:24 UTC] PHP   9. require() C:\Users\dell\Local Sites\university\app\public\wp-settings.php:190
+[07-Jul-2022 11:41:35 UTC] PHP Fatal error:  Cannot redeclare wp_readonly() (previously declared in C:\Users\dell\Local Sites\university\app\public\wp-includes\general-template.php:4867) in C:\Users\dell\Local Sites\university\app\public\wp-includes\php-compat\readonly.php on line 34
+[07-Jul-2022 11:41:35 UTC] PHP Stack trace:
+[07-Jul-2022 11:41:35 UTC] PHP   1. {main}() C:\Users\dell\Local Sites\university\app\public\index.php:0
+[07-Jul-2022 11:41:35 UTC] PHP   2. require() C:\Users\dell\Local Sites\university\app\public\index.php:17
+[07-Jul-2022 11:41:35 UTC] PHP   3. require_once() C:\Users\dell\Local Sites\university\app\public\wp-blog-header.php:13
+[07-Jul-2022 11:41:35 UTC] PHP   4. require_once() C:\Users\dell\Local Sites\university\app\public\wp-load.php:50
+[07-Jul-2022 11:41:35 UTC] PHP   5. require_once() C:\Users\dell\Local Sites\university\app\public\wp-config.php:91
+[07-Jul-2022 11:41:35 UTC] PHP   6. require() C:\Users\dell\Local Sites\university\app\public\wp-settings.php:190
