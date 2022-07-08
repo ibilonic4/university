@@ -35,7 +35,12 @@
             // ));
             ?>
            <ul>
-              <li><a href="<?php 
+              <li
+              <?php 
+              
+              if(is_page('about-us') ||  wp_get_post_parent_id(is_page('about-us'))) echo'class="current-menu-item"'
+
+              ?>><a href="<?php 
               
               echo site_url('/about-us');
 
