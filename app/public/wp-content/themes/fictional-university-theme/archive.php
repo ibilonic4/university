@@ -12,9 +12,17 @@ get_header(); ?>
       echo get_theme_file_uri('/images/ocean.jpg')
       ?>)"></div>
       <div class="page-banner__content container container--narrow">
-        <h1 class="page-banner__title">Welcome to our blog</h1>
+        <h1 class="page-banner__title"><?php 
+        
+        the_archive_title();
+        
+        ?></h1>
         <div class="page-banner__intro">
-          <p>REPLACE ME LATER</p>
+          <p><?php 
+          
+          the_archive_description();
+
+          ?></p>
         </div>
       </div>
     </div>
