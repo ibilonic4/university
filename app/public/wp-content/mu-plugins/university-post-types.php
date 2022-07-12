@@ -43,6 +43,23 @@ register_post_type('program',array(
     ),
     'menu_icon' => 'dashicons-awards'
 ));
+
+//Professor post type
+register_post_type('professor',array(
+    'public'=> true,
+    'show_in_rest' => true,
+    'supports'=> array(
+        'title','editor', 'thumbnail'
+    ),
+    'labels'=> array(
+        'name'=> 'Professors',
+        'add_new_item'=>'Add New Professor',
+        'edit_item'=> 'Edit Professor',
+        'all_items'=>'All Professors',
+        'singular_name'=>'Professor'
+    ),
+    'menu_icon' => 'dashicons-welcome-learn-more'
+));
 }
 
 
