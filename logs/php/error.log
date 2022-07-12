@@ -42,3 +42,37 @@ Stack trace:
 [08-Jul-2022 11:34:56 UTC] PHP   4. include() C:\Users\dell\Local Sites\university\app\public\wp-includes\template-loader.php:106
 [08-Jul-2022 11:43:24 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\dell\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\page.php on line 52
 [12-Jul-2022 07:47:16 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\dell\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 35
+[12-Jul-2022 09:42:10 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Query::set(), 0 passed in C:\Users\dell\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 29 and exactly 2 expected in C:\Users\dell\Local Sites\university\app\public\wp-includes\class-wp-query.php:1773
+Stack trace:
+#0 C:\Users\dell\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\functions.php(29): WP_Query->set()
+#1 C:\Users\dell\Local Sites\university\app\public\wp-includes\class-wp-hook.php(307): university_adjust_queries(Object(WP_Query))
+#2 C:\Users\dell\Local Sites\university\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\Users\dell\Local Sites\university\app\public\wp-includes\plugin.php(524): WP_Hook->do_action(Array)
+#4 C:\Users\dell\Local Sites\university\app\public\wp-includes\class-wp-query.php(1805): do_action_ref_array('pre_get_posts', Array)
+#5 C:\Users\dell\Local Sites\university\app\public\wp-includes\class-wp-q in C:\Users\dell\Local Sites\university\app\public\wp-includes\class-wp-query.php on line 1773
+[12-Jul-2022 10:51:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function dd() in C:\Users\dell\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\single-event.php:45
+Stack trace:
+#0 C:\Users\dell\Local Sites\university\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\dell\Local Sites\university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\dell\\L...')
+#2 C:\Users\dell\Local Sites\university\app\public\index.php(17): require('C:\\Users\\dell\\L...')
+#3 {main}
+  thrown in C:\Users\dell\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\single-event.php on line 45
+[12-Jul-2022 10:55:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Post::the_title() in C:\Users\dell\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\single-event.php:48
+Stack trace:
+#0 C:\Users\dell\Local Sites\university\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\dell\Local Sites\university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\dell\\L...')
+#2 C:\Users\dell\Local Sites\university\app\public\index.php(17): require('C:\\Users\\dell\\L...')
+#3 {main}
+  thrown in C:\Users\dell\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\single-event.php on line 48
+[12-Jul-2022 11:26:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\dell\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\single-event.php on line 58
+[12-Jul-2022 11:26:16 UTC] PHP Stack trace:
+[12-Jul-2022 11:26:16 UTC] PHP   1. {main}() C:\Users\dell\Local Sites\university\app\public\index.php:0
+[12-Jul-2022 11:26:16 UTC] PHP   2. require() C:\Users\dell\Local Sites\university\app\public\index.php:17
+[12-Jul-2022 11:26:16 UTC] PHP   3. require_once() C:\Users\dell\Local Sites\university\app\public\wp-blog-header.php:19
+[12-Jul-2022 11:26:16 UTC] PHP   4. include() C:\Users\dell\Local Sites\university\app\public\wp-includes\template-loader.php:106
+[12-Jul-2022 11:26:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\dell\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\single-event.php on line 58
+[12-Jul-2022 11:26:21 UTC] PHP Stack trace:
+[12-Jul-2022 11:26:21 UTC] PHP   1. {main}() C:\Users\dell\Local Sites\university\app\public\index.php:0
+[12-Jul-2022 11:26:21 UTC] PHP   2. require() C:\Users\dell\Local Sites\university\app\public\index.php:17
+[12-Jul-2022 11:26:21 UTC] PHP   3. require_once() C:\Users\dell\Local Sites\university\app\public\wp-blog-header.php:19
+[12-Jul-2022 11:26:21 UTC] PHP   4. include() C:\Users\dell\Local Sites\university\app\public\wp-includes\template-loader.php:106
