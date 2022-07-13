@@ -58,7 +58,7 @@
                        echo 'class="current-menu-item"';
               }
               
-              ?>><a href="<?php echo get_site_url('/blog')?>">Blog</a></li>
+              ?>><a href="<?php echo get_post_type_archive_link('post')?>">Blog</a></li>
             </ul> 
           </nav>
           <div class="site-header__util">
