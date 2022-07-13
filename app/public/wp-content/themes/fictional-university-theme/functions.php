@@ -67,6 +67,12 @@ add_action('after_setup_theme', 'university_features');
 
 function university_adjust_queries($query){
   
+  if(!is_admin() && is_post_type_archive('campus') && $query->is_main_query()){
+    $query->set('posts_per_page', -1);}
+
+
+
+
 $today = date('Ymd');
 if(!is_admin() && is_post_type_archive('program') && $query->is_main_query()){
 $query->set('posts_per_page', -1);
@@ -97,5 +103,13 @@ if(!is_admin() && is_post_type_archive('event') && $query->is_main_query()){
 
 add_action('pre_get_posts','university_adjust_queries');
 
+function universityMapKey($api){
+$api['key'] = 'AIzaSyA2EO-rEiHL9-gi3PjNuB16eo4kCR-E1jE';
+return $api;
+
+
+}
+
+add_filter('acf/fields/google_map/api', 'universityMapKey');
 
 ?>

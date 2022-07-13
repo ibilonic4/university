@@ -87,3 +87,19 @@ Stack trace:
 #4 {main}
   thrown in C:\Users\dell\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 4
 [13-Jul-2022 10:42:48 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\dell\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\archive-event.php on line 51
+[13-Jul-2022 12:44:25 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\dell\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\single-campus.php on line 41
+[13-Jul-2022 12:48:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in C:\Users\dell\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\single-campus.php:49
+Stack trace:
+#0 C:\Users\dell\Local Sites\university\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\dell\Local Sites\university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\dell\\L...')
+#2 C:\Users\dell\Local Sites\university\app\public\index.php(17): require('C:\\Users\\dell\\L...')
+#3 {main}
+  thrown in C:\Users\dell\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\single-campus.php on line 49
+[13-Jul-2022 12:53:07 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\dell\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\single-campus.php on line 80
+[13-Jul-2022 12:56:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on array in C:\Users\dell\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\single-program.php:111
+Stack trace:
+#0 C:\Users\dell\Local Sites\university\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\dell\Local Sites\university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\dell\\L...')
+#2 C:\Users\dell\Local Sites\university\app\public\index.php(17): require('C:\\Users\\dell\\L...')
+#3 {main}
+  thrown in C:\Users\dell\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\single-program.php on line 111

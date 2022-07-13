@@ -60,6 +60,27 @@ register_post_type('professor',array(
     ),
     'menu_icon' => 'dashicons-welcome-learn-more'
 ));
+
+//Campus post type
+register_post_type('campus',array(
+    'public'=> true,
+    'show_in_rest' => true,
+    'has_archive'=> true,
+    'supports'=> array(
+        'title','editor', 'excerpt'
+    ),
+    'rewrite' => array(
+        'slug'=> 'campuses'
+    ),
+    'labels'=> array(
+        'name'=> 'Campuses',
+        'add_new_item'=>'Add New Campus',
+        'edit_item'=> 'Edit Campus',
+        'all_items'=>'All Campuses',
+        'singular_name'=>'Campus'
+    ),
+    'menu_icon' => 'dashicons-location-alt'
+));
 }
 
 
